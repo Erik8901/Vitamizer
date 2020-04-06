@@ -9,9 +9,9 @@
                   <ul class="products-ul">
                       <li class="products-li" v-for="product in products" :key="product.name">
                         <span class="product-name">{{ product.name }}</span>
+                        <span class="product-text">Info: {{ product.info }}</span>
                         <img class="img" :src="product.img" />
                         <span class="product-price">Price: {{ product.price }} €</span>
-                        <span class="product-text">Info: {{ product.info}}</span>
                       </li>
                   </ul>
             </div>
@@ -31,8 +31,7 @@ export default {
   data() {
     return {
       products: null,
-      active: false,
-      getInfo: false
+      active: false
       }
     },
   mounted () {
@@ -44,7 +43,7 @@ export default {
     showMenu() {
       this.active = !this.active;  
     }
-  }
+  },
 }
 </script>
 <style scoped>
