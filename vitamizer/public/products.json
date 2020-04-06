@@ -1,0 +1,27 @@
+[
+    {
+      "name": "Vitamin A",
+      "price": "100",
+      "img": "https://cdn.pixabay.com/photo/2018/01/08/09/46/pill-3069032_960_720.jpg",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    },
+    {
+      "name": "Vitamin B",
+      "price": "60",
+      "img": "https://cdn.pixabay.com/photo/2018/01/08/09/46/pill-3069032_960_720.jpg",
+      "info": "Lorem ipsum dolor sit amet , consectetur adipiscing elit"
+    },
+    {
+      "name": "Vitamin C",
+      "price": "16",
+      "img": "https://cdn.pixabay.com/photo/2018/01/08/09/46/pill-3069032_960_720.jpg",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    },
+    {
+    "name": "Vitamin D",
+    "price": "76",
+    "img": "https://cdn.pixabay.com/photo/2018/01/08/09/46/pill-3069032_960_720.jpg",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      }
+]
+  
